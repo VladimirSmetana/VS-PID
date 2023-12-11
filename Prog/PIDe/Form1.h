@@ -163,7 +163,6 @@ namespace CppCLRWinFormsProject {
 			// 
 			// chart1
 			// 
-			chartArea13->AxisY->Maximum = 4;
 			chartArea13->Name = L"ChartArea1";
 			this->chart1->ChartAreas->Add(chartArea13);
 			legend13->Name = L"Legend1";
@@ -212,7 +211,8 @@ namespace CppCLRWinFormsProject {
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(62, 20);
 			this->textBox1->TabIndex = 6;
-			this->textBox1->Text = L"0,1";
+			this->textBox1->Text = L"0,014";
+			this->textBox1->TextChanged += gcnew System::EventHandler(this, &Form1::textBox1_TextChanged);
 			// 
 			// textBox2
 			// 
@@ -220,7 +220,7 @@ namespace CppCLRWinFormsProject {
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(62, 20);
 			this->textBox2->TabIndex = 7;
-			this->textBox2->Text = L"0,01";
+			this->textBox2->Text = L"-0,002";
 			// 
 			// textBox3
 			// 
@@ -228,7 +228,7 @@ namespace CppCLRWinFormsProject {
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(62, 20);
 			this->textBox3->TabIndex = 8;
-			this->textBox3->Text = L"0,04";
+			this->textBox3->Text = L"0,09";
 			// 
 			// label7
 			// 
@@ -511,6 +511,9 @@ namespace CppCLRWinFormsProject {
 			CEqual.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\VS-PID\\Start data\\Посадка\\reCEqual.txt");
 			//Alpha.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\VS-PID\\Start data\\Посадка\\Alpha.txt");
 
+			const float w_autos = 0.023;
+			const float eps = 0.7;
+
 			float kp, ki, kd, goal, h=0.5;
 			float Time ;
 			int N = Convert::ToInt64(domainUpDown2->Text) * 2;
@@ -568,7 +571,10 @@ namespace CppCLRWinFormsProject {
 				y = 0,
 				du = 0,
 				ddu = 0,
-				uc = 0,
+				uc = 0, 
+				duc = 0,
+				dduc = 0,
+				pid_signal = 0,
 				Summ_Cws=0,
 				Summ_Cvs=0,
 				Summ_S=0;
@@ -628,12 +634,12 @@ namespace CppCLRWinFormsProject {
 
 				//uc = ki * w + kp * dw + kd * ddw;
 				//uc = pid1.signal(w)+ pid2.signal(dw);
-				uc = pid1.signal(dw);
+				pid_signal = pid1.signal(dw);
 				//uc += pid3.signal(y);
 				//uc += pid4.signal(v);
-
 				if (uc >= bmax) uc = bmax;
-				if (uc <=-bmax) uc =-bmax;
+				if (uc <= -bmax) uc = -bmax;
+
 					
 				Summ_Cws = Cws[0][i]*s[0] + Cws[1][i]*s[1] + Cws[2][i]*s[2] + Cws[3][i]*s[3] + Cws[4][i]*s[4];
 				Summ_Cvs = Cvs[0][i]*s[0] + Cvs[1][i]*s[1] + Cvs[2][i]*s[2] + Cvs[3][i]*s[3] + Cvs[4][i]*s[4];
@@ -655,8 +661,11 @@ namespace CppCLRWinFormsProject {
 					Summ_S += s[j];
 				}
 
+				dduc = pid_signal - eps*w_autos*duc - w_autos*w_autos*uc;
+
 				dv =  Cvv[i] * Wind[i] - Cvw[i] * w - Cvv[i] * v + Cvb[i] * uc -Summ_Cvs; // 
 				ddw = Cwv[i] * Wind[i] - Cww[i] * w - Cwv[i] * v - Cwb[i] * uc -Summ_Cws; //
+
 
 				  if (checkBox1->CheckState == CheckState::Checked)
 				  {
@@ -682,6 +691,12 @@ namespace CppCLRWinFormsProject {
 				  du += h * ddu;
 				  u += h * du;
 				  y += h * v;
+
+				  duc += h * dduc;
+				  uc += h * duc;
+
+				  if (uc >= bmax) uc = bmax;
+				  if (uc <= -bmax) uc = -bmax;
 
 				  std::cout << v << std::endl;
 				for (int j = 0; j < Mod; j++)
@@ -737,6 +752,8 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void domainUpDown1_SelectedItemChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void label5_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
