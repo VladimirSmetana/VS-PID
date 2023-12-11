@@ -1,0 +1,23 @@
+C:\Users\Владимир Сметана\Desktop\C++\PID\PIDe\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\C++\PID\PIDe\PIDe\x64\Debug\PIDe.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\C++\PID\PIDe\PIDe\x64\Debug\PIDe.Form1.resources
+C:\Users\Владимир Сметана\Desktop\C++\PID\PIDe\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\PIDe\x64\Debug\PIDe.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\PIDe\x64\Debug\PIDe.Form1.resources
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\Prog\PIDe\x64\Debug\PIDe.Form1.resources
+C:\Users\Владимир Сметана\Desktop\Диплом\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\Diplom\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\Diplom\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\Diplom\PID-reg\Prog\PIDe\x64\Debug\PIDe.Form1.resources
+C:\Users\Владимир Сметана\Desktop\Diplom\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache
+C:\Users\Владимир Сметана\Desktop\УЧЕБНЫЙ АРХИВ\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
+C:\Users\Владимир Сметана\Desktop\УЧЕБНЫЙ АРХИВ\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир Сметана\Desktop\УЧЕБНЫЙ АРХИВ\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.Form1.resources
+C:\Users\Владимир Сметана\Desktop\УЧЕБНЫЙ АРХИВ\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.Form1.resources
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache
