@@ -505,11 +505,11 @@ namespace CppCLRWinFormsProject {
 			ifstream CEqual;
 			ifstream Alpha;
 
-			Aero.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\PID-reg\\Start data\\Посадка\\reAero.txt");
-			Dow.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\PID-reg\\Start data\\Посадка\\reDow.txt");
-			Cin.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\PID-reg\\Start data\\Посадка\\reCin.txt");
-			CEqual.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\PID-reg\\Start data\\Посадка\\reCEqual.txt");
-			//Alpha.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\PID-reg\\Start data\\Посадка\\Alpha.txt");
+			Aero.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\VS-PID\\Start data\\Посадка\\reAero.txt");
+			Dow.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\VS-PID\\Start data\\Посадка\\reDow.txt");
+			Cin.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\VS-PID\\Start data\\Посадка\\reCin.txt");
+			CEqual.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\VS-PID\\Start data\\Посадка\\reCEqual.txt");
+			//Alpha.open("C:\\Users\\smeta\\OneDrive\\Рабочий стол\\study storage\\12 S\\VS-PID\\Start data\\Посадка\\Alpha.txt");
 
 			float kp, ki, kd, goal, h=0.5;
 			float Time ;

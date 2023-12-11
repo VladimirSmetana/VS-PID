@@ -21,3 +21,6 @@ C:\Users\Владимир Сметана\Desktop\УЧЕБНЫЙ АРХИВ\12 S\
 C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
 C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.Form1.resources
 C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\x64\Debug\PIDe.vcxproj.AssemblyReference.cache
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\x64\Debug\PIDe.Form1.resources
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\x64\Debug\PIDe.vcxproj.GenerateResource.cache

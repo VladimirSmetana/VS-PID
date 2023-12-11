@@ -1,24 +1,29 @@
-﻿  CppCLR_WinFormsProject.cpp
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(516,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(517,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(589,26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(590,26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(591,26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(600,13): warning C4305: =: усечение из "double" в "float"
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(663,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(664,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(665,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(666,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(667,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(689,26): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(690,24): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(691,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(560,16): warning C4101: bmin: неиспользованная локальная переменная
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(518,10): warning C4101: KK: неиспользованная локальная переменная
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(580,10): warning C4101: N1: неиспользованная локальная переменная
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(579,10): warning C4101: N0: неиспользованная локальная переменная
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(578,10): warning C4101: A1: неиспользованная локальная переменная
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(576,10): warning C4101: A0: неиспользованная локальная переменная
-C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\PIDe\Form1.h(699): warning C4700: использована неинициализированная локальная переменная "Time"
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinFormsProject.cpp
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(516,10): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(517,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(589,26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(590,26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(591,26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(600,13): warning C4305: =: усечение из "double" в "float"
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(663,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(664,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(665,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(666,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(667,78): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(689,26): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(690,24): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(691,18): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(560,16): warning C4101: bmin: неиспользованная локальная переменная
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(518,10): warning C4101: KK: неиспользованная локальная переменная
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(580,10): warning C4101: N1: неиспользованная локальная переменная
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(579,10): warning C4101: N0: неиспользованная локальная переменная
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(578,10): warning C4101: A1: неиспользованная локальная переменная
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(576,10): warning C4101: A0: неиспользованная локальная переменная
+  Form1.cpp
+  Создание кода...
+C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\PIDe\Form1.h(699): warning C4700: использована неинициализированная локальная переменная "Time"
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  PIDe.vcxproj -> C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\PID-reg\Prog\x64\Debug\PIDe.exe
+  PIDe.vcxproj -> C:\Users\smeta\OneDrive\Рабочий стол\study storage\12 S\VS-PID\Prog\x64\Debug\PIDe.exe
